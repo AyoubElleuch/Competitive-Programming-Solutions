@@ -32,7 +32,7 @@ typedef pair<db, db> pdd;
 typedef vector<db> vd;
 typedef vector<vib> vvib;
 
-// link to problem: https://dmoj.ca/submission/4408787
+// link to problem: https://dmoj.ca/problem/cchange
 
 vi v;
 int x, n;
