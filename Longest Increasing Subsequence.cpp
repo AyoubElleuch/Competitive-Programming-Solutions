@@ -10,7 +10,9 @@ using namespace std;
 #define inf 1000000000
 #define NIL -1;
 #define sz(x) (ll)x.size()
+#define loop(x, n) for(int x=0; x<n; x++)
 #define boost() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define dpp(dp, x) 
 
 typedef long long ll;
 typedef unsigned long long ull;
@@ -32,35 +34,29 @@ typedef pair<db, db> pdd;
 typedef vector<db> vd;
 typedef vector<vib> vvib;
 
-// link to problem: https://dmoj.ca/problem/dp1p3
-
 int n;
-vi v, sq(5000, 1);
-unordered_map<int, int> dp; 
-int longest(int l, int i);
+int v[1000001];
 
-int main() {
-    int ans = 0;
-    cin >> n;
-    for(int i=0; i<n; i++){
-        int x; cin >> x; v.pb(x);
-    }
-    int i = 1;
-    for(int j=0; j<n; j++){
-        while(j!=i){
-            if(v[j]<v[i]){
-                if((sq[i]-1<=sq[j])) sq[i]=sq[j]+1;
-            }
-            ++j;
+int solve(){
+    vi seq;
+    seq.pb(v[1]);
+    for(int i=2; i<=n; i++){
+        if(seq.back()<v[i]){
+            seq.pb(v[i]);
+        }else{
+            int ind = lower_bound(seq.begin(), seq.end(), v[i])-seq.begin();
+            seq[ind]=v[i];
         }
-        j=-1;
-        if(i<n-1) ++i;
-        else break;
     }
-    for(int i=0; i<n; i++){
-        if(sq[i]>ans) ans = sq[i];
+    return seq.size();
+}
+
+int main(){
+    cin >> n;
+    for(int i=1; i<=n; i++){
+        cin >> v[i];
     }
-    cout << ans;
+    cout << solve();
     return 0;
 }
 
