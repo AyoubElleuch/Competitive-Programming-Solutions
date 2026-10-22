@@ -1,0 +1,25 @@
+# CCC solution explanations
+
+These notes follow the 21 implementations in [CCC/](../../CCC/), including the CCCHK problem. Each page explains the approach, gives a small example, and describes the running time and relevant limits of the code.
+
+- [CCC '00 S2 - Babbling Brooks](./CCC%20'00%20S2%20-%20Babbling%20Brooks/README.md)
+- [CCC '00 S4 - Golf](./CCC%20'00%20S4%20-%20Golf/README.md)
+- [CCC '03 S3 - Floor Plan](./CCC%20'03%20S3%20-%20Floor%20Plan/README.md)
+- [CCC '05 J5 - Bananas](./CCC%20'05%20J5%20-%20Bananas/README.md)
+- [CCC '07 J4 - Anagram Checker](./CCC%20'07%20J4%20-%20Anagram%20Checker/README.md)
+- [CCC '07 J5 - Keep on Truckin'](./CCC%20'07%20J5%20-%20Keep%20on%20Truckin'/README.md)
+- [CCC '07 S4 - Waterpark](./CCC%20'07%20S4%20-%20Waterpark/README.md)
+- [CCC '09 S3 - Degrees Of Separation](./CCC%20'09%20S3%20-%20Degrees%20Of%20Separation/README.md)
+- [CCC '10 J5 - Knight Hop](./CCC%20'10%20J5%20-%20Knight%20Hop/README.md)
+- [CCC '11 J4 - Boring Business](./CCC%20'11%20J4%20-%20Boring%20Business/README.md)
+- [CCC '11 J5 - Unfriend](./CCC%20'11%20J5%20-%20Unfriend/README.md)
+- [CCC '12 S5 - Mouse Journey](./CCC%20'12%20S5%20-%20Mouse%20Journey/README.md)
+- [CCC '13 S2 - Bridge Transport](./CCC%20'13%20S2%20-%20Bridge%20Transport/README.md)
+- [CCC '14 S2 - Assigning Partners](./CCC%20'14%20S2%20-%20Assigning%20Partners/README.md)
+- [CCC '14 S3 - The Geneva Confection](./CCC%20'14%20S3%20-%20The%20Geneva%20Confection/README.md)
+- [CCC '15 S3 - Gates](./CCC%20'15%20S3%20-%20Gates/README.md)
+- [CCC '16 S2 - Tandem Bicycle](./CCC%20'16%20S2%20-%20Tandem%20Bicycle/README.md)
+- [CCC '18 J5 - Choose your own path](./CCC%20'18%20J5%20-%20Choose%20your%20own%20path/README.md)
+- [CCC '20 S2 - Escape Room](./CCC%20'20%20S2%20-%20Escape%20Room/README.md)
+- [CCC '96 S4 - When in Rome](./CCC%20'96%20S4%20-%20When%20in%20Rome/README.md)
+- [CCCHK '15 J3 - Queens can't attack me!](./CCCHK%20'15%20J3%20-%20Queens%20can't%20attack%20me!/README.md)

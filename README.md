@@ -9,12 +9,17 @@ Personal repository of competitive programming solutions, algorithmic challenge 
 
 ---
 
+## Start with the reasoning
+
+The [docs folder](docs/README.md) explains how the solutions in this repository work. Start with [CCC and CCCHK](docs/CCC/README.md), which covers all 21 solutions in `CCC/`. Each problem has its own README with the approach, a small example, complexity, and relevant implementation limits.
+
 ## Repository Structure
 
 ```text
 .
 ├── Algorithms/         # Classic algorithms & data structures (DP, Union-Find, LCS, LIS, BST)
 ├── CCC/                # Canadian Computing Competition (Senior & Junior stages)
+├── docs/               # Solution explanations, organized to match the source folders
 ├── IOI/                # International Olympiad in Informatics
 ├── LeetCode/           # LeetCode problems indexed by number and title
 ├── *.cpp               # Individual contest challenges (CCO, DMOPC, DMPG, DWITE, Hacker Cup)
