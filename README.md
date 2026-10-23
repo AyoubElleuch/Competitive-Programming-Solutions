@@ -11,7 +11,12 @@ Personal repository of competitive programming solutions, algorithmic challenge 
 
 ## Start with the reasoning
 
-The [docs folder](docs/README.md) explains how the solutions in this repository work. Browse [CCC and CCCHK](docs/CCC/README.md) for all 21 solutions in `CCC/`, or [LeetCode](docs/LeetCode/README.md) for all 34 solutions in `LeetCode/`. The [IOI explanations](docs/IOI/README.md) cover all 3 solutions in `IOI/`. Each problem has its own README with the approach, a small example, complexity, and relevant implementation limits.
+The [docs folder](docs/README.md) explains how the solutions in this repository work. Each problem has its own README with the approach, a small example, complexity, and relevant implementation limits.
+
+- [CCC and CCCHK](docs/CCC/README.md): all 21 solutions in `CCC/`.
+- [LeetCode](docs/LeetCode/README.md): all 34 solutions in `LeetCode/`.
+- [IOI](docs/IOI/README.md): all 3 solutions in `IOI/`.
+- [Algorithms](docs/Algorithms/README.md): all 8 implementations in `Algorithms/`.
 
 ## Repository Structure
 
